@@ -3,6 +3,7 @@ pragma solidity ^0.5.0;
 import "./ERC20Interface.sol";
 import "./CrowdsaleInterface.sol";
 import "./Owned.sol";
+import "./SafeMath.sol";
 
 contract TestDevToken is ERC20Interface, CrowdsaleInterface, Owned {
     using SafeMath for uint;
